@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,13 +12,11 @@ body {
     background-size: cover;
 }
 
-.header{
+.header {
     font-family: 'JetBrains+Mono', sans-serif;
     background-color: transparent;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 85px;
-    padding: 5px 10%;
-    margin: 10px 0 25px 0;
+    justify-content: center;
+    height: 50px;
+    padding: 0, 10%;
 }
