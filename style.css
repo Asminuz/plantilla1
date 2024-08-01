@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +7,14 @@
 }
 
 header{
+body {
+    background-image: url(img/wallhaven-d6jg9g.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    font-family: 'JetBrains+Mono', sans-serif;
     background-color: transparent;
     display: flex;
     justify-content: flex-end;
@@ -15,3 +25,5 @@ header{
 
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
+    margin: 10px 0 25px 0;
+}
