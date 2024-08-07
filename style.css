@@ -48,12 +48,6 @@ nav a:hover {
     color: rgb(14, 89, 133);
 }
 
-.principal {
-<<<<<<< HEAD
-    text-align: center;
-    margin-top: 20px;
-}
-
 .menu-btn {
     display: flex;
     flex-direction: column;
