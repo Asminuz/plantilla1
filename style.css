@@ -6,10 +6,9 @@
     box-sizing: border-box;
 }
 
-a{
+a {
     text-decoration: none;
     color: #fff;
-
 }
 
 body {
@@ -18,36 +17,40 @@ body {
     background-size: cover;
 }
 
-
 .header {
-    font-family: 'JetBrains+Mono', sans-serif;
-    background-color: rgba(0, 0, 0,.2);
-    font-display: flex;
-    justify-content: space-between;
+    font-family: 'JetBrains Mono', sans-serif;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 50px;
     padding: 15px;
+}
+
+nav ul {
     list-style: none;
-    text-transform: uppercase;
-    color: #fff;
-    font-size: 12px;
-    align-items: center;
-    position: relative;
     display: flex;
     gap: 80px;
 }
 
-.header ul{
-    text-align: center;
-    display: center;
+nav li {
+    display: inline;
 }
 
-nav a{
+nav a {
     font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
     font-size: 14px;
 }
 
-nav a:hover{
+nav a:hover {
     color: rgb(14, 89, 133);
+}
+
+.principal {
+    text-align: center;
+    margin-top: 20px;
 }
 
 .menu-btn {
@@ -57,6 +60,16 @@ nav a:hover{
     gap: 5px;
     margin-top: 20px;
 .menu-btn{
+}
+
+.menu-btn span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+}
+
+.menu-btn {
     display: inline-block;
     cursor: pointer;
     width: 30px;
@@ -90,6 +103,6 @@ nav a:hover{
     padding: 0;
 }
 
-.menu.active{
+.menu.active {
     display: block;
 }
