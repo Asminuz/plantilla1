@@ -48,6 +48,7 @@ nav a:hover {
 }
 
 .principal {
+<<<<<<< HEAD
     text-align: center;
     margin-top: 20px;
 }
@@ -66,3 +67,10 @@ nav a:hover {
     height: 3px;
     background-color: #fff;
 }
+=======
+  text-align: center;
+  justify-content: center;
+  font-size: 36px;
+  color: #ffff;
+}
+>>>>>>> 7c372fd23cb6d1d1e4afae255de37dbc0cc05eea
