@@ -30,7 +30,7 @@ body {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 30px; /* Aumenta el espacio entre los enlaces */
+    gap: 80px;
 }
 
 nav li {
@@ -41,7 +41,7 @@ nav a {
     font-weight: 600;
     text-transform: uppercase;
     color: #fff;
-    font-size: 12px; /* Ajusta el tamaño de la fuente */
+    font-size: 14px;
 }
 
 nav a:hover {
