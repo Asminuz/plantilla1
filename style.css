@@ -67,7 +67,8 @@ nav a:hover {
     height: 3px;
     background-color: #fff;
 }
-=======
+
+.principal {
   text-align: center;
   justify-content: center;
   position: absolute;
@@ -77,4 +78,4 @@ nav a:hover {
   font-size: 36px;
   color: #ffff;
 }
->>>>>>> 7c372fd23cb6d1d1e4afae255de37dbc0cc05eea
+
