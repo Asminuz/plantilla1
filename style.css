@@ -12,7 +12,7 @@ a {
 }
 
 body {
-    background-image: url(img/wallhaven-d6jg9g.jpg);
+    background-image: url(https://w.wallhaven.cc/full/6d/wallhaven-6d3qel.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -49,6 +49,7 @@ nav a:hover {
 }
 
 .principal {
+    white-space: nowrap;
     text-align: center;
     margin-top: 20px;
 }
@@ -81,9 +82,20 @@ nav a:hover {
     display: block;
     width: 100%;
     height: 4px;
-    background-color: #333;
+    background-color: #fff;
     margin: 6px 0;
     transition: 0.4s;
+}
+
+.principal {
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  top: 50vh;
+  left: 50vh;
+  margin: -25px 0 0 -25px;
+  font-size: 36px;
+  color: #ffff;
 }
 
 .principal {
