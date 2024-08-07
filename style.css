@@ -50,6 +50,10 @@ nav a:hover{
 .principal {
   text-align: center;
   justify-content: center;
+  position: absolute;
+  top: 50vh;
+  left: 50vh;
+  margin: -25px 0 0 -25px;
   font-size: 36px;
   color: #ffff;
 }
