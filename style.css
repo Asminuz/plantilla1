@@ -32,6 +32,8 @@ body {
     font-size: 12px;
     align-items: center;
     position: relative;
+    display: flex;
+    gap: 80px;
 }
 
 .header ul{
@@ -41,6 +43,7 @@ body {
 
 nav a{
     font-weight: 600;
+    font-size: 14px;
 }
 
 nav a:hover{
