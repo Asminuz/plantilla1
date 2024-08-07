@@ -59,7 +59,7 @@ nav a:hover {
     align-items: center;
     gap: 5px;
     margin-top: 20px;
-}
+
 
 .menu-btn span {
     display: block;
@@ -83,6 +83,17 @@ nav a:hover {
     background-color: #333;
     margin: 6px 0;
     transition: 0.4s;
+}
+
+.principal {
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  top: 50vh;
+  left: 50vh;
+  margin: -25px 0 0 -25px;
+  font-size: 36px;
+  color: #ffff;
 }
 
 .menu {
