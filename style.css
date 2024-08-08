@@ -48,6 +48,19 @@ nav a:hover {
     color: rgb(180, 180, 180);
 }
 
+.tit {
+    text-align: center;
+    margin: 20px 0;
+    left: 50vw;
+}
+
+.tit h1{
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    left: 35vw;
+}
+
 .principal {
     white-space: nowrap;
     text-align: center;
