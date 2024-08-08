@@ -52,19 +52,20 @@ nav a:hover {
     text-align: center;
     margin: 20px 0;
     left: 50vw;
+    font-family: 'JetBrains Mono', sans-serif;
 }
 
 .tit h1{
-    font-size: 30px;
+    font-size: 45px;
     color: #fff;
     position: absolute;
-    left: 35vw;
+    left: 40vw;
 }
 
 .principal {
     white-space: nowrap;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .menu-btn {
@@ -110,14 +111,15 @@ nav a:hover {
   margin: -25px 0 0 -25px;
   font-size: 36px;
   color: #ffff;
+  font-family: 'JetBrains Mono', sans-serif;
 }
 
 .principal {
   text-align: center;
   justify-content: center;
   position: absolute;
-  top: 50vh;
-  left: 50vh;
+  top: 40vh;
+  left: 48vh;
   margin: -25px 0 0 -25px;
   font-size: 36px;
   color: #ffff;
