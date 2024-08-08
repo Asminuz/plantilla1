@@ -59,13 +59,7 @@ nav a:hover {
     font-size: 45px;
     color: #fff;
     position: absolute;
-    left: 40vw;
-}
-
-.principal {
-    white-space: nowrap;
-    text-align: center;
-    margin-top: 40px;
+    left: 45vw;
 }
 
 .menu-btn {
@@ -102,27 +96,19 @@ nav a:hover {
     transition: 0.4s;
 }
 
-.principal {
-  text-align: center;
-  justify-content: center;
-  position: absolute;
-  top: 50vh;
-  left: 50vh;
-  margin: -25px 0 0 -25px;
-  font-size: 36px;
-  color: #ffff;
-  font-family: 'JetBrains Mono', sans-serif;
-}
+
 
 .principal {
   text-align: center;
   justify-content: center;
   position: absolute;
-  top: 40vh;
-  left: 48vh;
+  top: 50vh;
+  left: 63vh;
   margin: -25px 0 0 -25px;
   font-size: 36px;
   color: #ffff;
+  place-content: center;
+  font-family: 'JetBrains Mono', sans-serif;
 }
 
 .menu {
@@ -138,7 +124,7 @@ nav a:hover {
 .container {
     position: absolute;
     top: 80vh;
-    left: 30vw;
+    left: 37vw;
     text-align: center;
     background-color: transparent;
     padding: 10px;
